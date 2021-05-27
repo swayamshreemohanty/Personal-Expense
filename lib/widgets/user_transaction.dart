@@ -32,7 +32,7 @@ class _UserTransactionState extends State<UserTransaction> {
       date: DateTime.now(),
     );
     setState(() {
-      _userTransactions.add(newTx); 
+      _userTransactions.add(newTx);
     });
   }
 
